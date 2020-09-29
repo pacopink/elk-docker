@@ -1,0 +1,7 @@
+cluster.name: "docker-cluster"
+network.host: localhost
+http.port: 9200
+node.name: localhost
+discovery.seed_hosts: localhost
+cluster.initial_master_nodes: localhost
+#  - manjaro

@@ -1,0 +1,10 @@
+server.port: 5601
+server.host: "0.0.0.0"
+server.name: kibana
+elasticsearch.hosts: ["http://localhost:9200"]
+logging.dest: stdout
+#monitoring.ui.container.elasticsearch.enabled: true
+i18n.locale: "zh-CN"
+map.tilemap.url: "http://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}"
+map.tilemap.options.maxZoom: 16
+map.tilemap.options.minZoom: 2
